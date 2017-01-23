@@ -18,8 +18,8 @@
         android:text="You're invited!"
         android:textSize="50sp"
         android:textColor="#ffffff"
-        android:paddingLeft="10dp"
-        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
         android:paddingBottom="8dp"
         />
     <TextView
@@ -30,7 +30,7 @@
         android:text="Bonfire at the beach"
         android:textSize="25sp"
         android:textColor="#ffffff"
-        android:paddingLeft="10dp"
+        android:paddingLeft="16dp"
         android:paddingBottom="16dp"
         />
 
