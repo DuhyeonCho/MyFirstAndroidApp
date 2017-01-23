@@ -10,17 +10,35 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="16dp"
         android:layout_weight="1"
         android:background="#b14545"
+        android:padding="32dp"
         android:text="안녕하세요."
         android:textSize="45sp" />
 
-    <ImageView
-        android:src="@drawable/man"
-        android:scaleType="centerCrop"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/imageView" />
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/man" />
 
 </LinearLayout>
