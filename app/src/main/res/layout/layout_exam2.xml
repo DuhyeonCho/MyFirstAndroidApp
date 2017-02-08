@@ -10,6 +10,21 @@
         android:layout_height="wrap_content"
         android:paddingBottom="16dp"
         android:paddingTop="16dp"
+        android:text="Toppings"
+        android:textSize="16sp"/>
+    <CheckBox
+        android:id="@+id/cream_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:text="휘핑 크림"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
         android:text="QUANTITY" />
 
     <LinearLayout
